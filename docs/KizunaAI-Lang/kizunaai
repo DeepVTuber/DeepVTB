@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Kizunaai < Brainfuck
+  nxt 'はいどうもー!'
+  inc '最高かよ!'
+  prv 'ふぁっきゅー'
+  dec 'アイた〜んビーム!!'
+  opn 'お・ね・が・い'
+  cls '完璧ですね!'
+  put "危機回避〜!"
+  get 'ちょちょいのちょいですよ'
+end
+
+puts Kizunaai.new.fuck(ARGF.read)
