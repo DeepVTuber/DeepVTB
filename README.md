@@ -94,8 +94,9 @@ More details about 3D gaze estimation can be found at the [Laser Eye](https://gi
 * [kizunaai.com](http://kizunaai.com/): モデルは無料でご利用いただけます.
 
 ## KizunaAI-Lang
+<br>
 
-# キズナアイ言語 ლ(´ڡ`ლ)
+## キズナアイ言語 ლ(´ڡ`ლ)
 
 [<img align="right" src="https://user-images.githubusercontent.com/39142850/73865548-c7048080-4886-11ea-818b-288bad649684.jpeg" alt="KizunaAI" width="390">](https://www.youtube.com/channel/UC4YaOt1yT-ZeyB0OmxHgolA)
 
@@ -106,13 +107,13 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 - [Kizuna AI - Twitter](https://twitter.com/aichan_nel)<br>
 <br>
 
-## 使用ライブラリ & 本家
+### 使用ライブラリ & 本家
 
 - [masarakki / r-fxxk](https://github.com/masarakki/r-fxxk)<br>
 - [いつもニコニコあなたの隣に這いよる混沌ニャルラトホテプ言語ですっ](https://github.com/masarakki/nyaruko_lang)<br>
 <br>
 
-[Go to ->](/docs/KizunaAI-Lang/README.md)
+[<b>Go to -></b>](/docs/KizunaAI-Lang/README.md)
 
 ## Citation
 
