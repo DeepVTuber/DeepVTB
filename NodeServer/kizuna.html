@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<script src=""></script>
+
+	<script src="https://cdn.bootcdn.net/ajax/libs/socket.io/2.3.0/socket.io.slim.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@r123/examples/js/libs/ammo.wasm.js"></script>
+
+	<script type="module">
+		import * as THREE from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r123/build/three.module.js';
+
+		import Stats from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r123/examples/jsm/libs/stats.module.js';
+
+		import { OutlineEffect } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r123/examples/jsm/effects/OutlineEffect.js';
+		import { MMDLoader } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r123/examples/jsm/loaders/MMDLoader.js';
+		import { MMDAnimationHelper } from 'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r123/examples/jsm/animation/MMDAnimationHelper.js';
+
+		var container, stats, helper;
+		var mesh, camera, scene, renderer, effect;
+		var head, left_eye, right_eye;
+		var angle_const = 3.1415926 / 180;
+
+		var socket = io("http://127.0.0.1:6789/kizuna");
+		var websocketClose = () => socket.close();
+
+		socket.on('result_download', (result) => {
+			requestAnimationFrame(() => animate(result));
+		});
+
+		var clock = new THREE.Clock();
+
+		Ammo().then(function (AmmoLib) {
+
+			setTimeout(function () {
+				// 30 25 24 21 20 19 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+
+				// happy_eye_close: 0, 2, 3
+				// neutral_eye_close: 1, 4, 5
+				// blink: none -> 6 -> 1 -> 7 -> 8 -> none
+
+				// mouth: 9 -> 13 -> 14 -> 12 -> 16 -> 17 -> 11
+				// teeth: 10 15 21
+				// happy: 18 23
+				// unhappy: 19 24 25
+				// what?: 20
+
+				requestAnimationFrame(() => animate({ 'euler': [0, 0, 0], 'eye': [0, 0] }));
+			}, 2000);
+
+			init();
+		});
+
+
+		function init() {
+
+			container = document.createElement('div');
+			document.body.appendChild(container);
+
+			camera = new THREE.PerspectiveCamera(20, window.innerWidth / window.innerHeight, 1, 100);
+			camera.position.set(0, 0, 16);
+
+			// scene
+
+			scene = new THREE.Scene();
+			scene.background = new THREE.Color(0xffffff);
+
+			var ambient = new THREE.AmbientLight(0x666666);
+			scene.add(ambient);
+
+			var directionalLight = new THREE.DirectionalLight(0x887766);
+			directionalLight.position.set(- 1, 1, 1).normalize();
+			scene.add(directionalLight);
+
+			renderer = new THREE.WebGLRenderer({ antialias: true });
+			renderer.setPixelRatio(window.devicePixelRatio);
+			renderer.setSize(window.innerWidth, window.innerHeight);
+			container.appendChild(renderer.domElement);
+
+			effect = new OutlineEffect(renderer);
+
+			// STATS
+
+			stats = new Stats();
+			container.appendChild(stats.dom);
+
+			// model
+
+			function onProgress(xhr) {
+
+				if (xhr.lengthComputable) {
+					var percentComplete = xhr.loaded / xhr.total * 100;
+					console.log(Math.round(percentComplete, 2) + '% downloaded');
+				}
+			}
+
+			var modelFile = 'models/kizunaai/kizunaai.pmx';
+
+			helper = new MMDAnimationHelper({afterglow: 0.0});
+
+			new MMDLoader().load(modelFile, function (object) {
+
+				mesh = object;
+				mesh.position.y = -18;
+
+				scene.add(mesh);
+
+				helper.add(mesh, { physics: true });
+
+				var ikHelper = helper.objects.get(mesh).ikSolver.createHelper();
+				ikHelper.visible = false;
+				scene.add(ikHelper);
+
+				var physicsHelper = helper.objects.get(mesh).physics.createHelper();
+				physicsHelper.visible = false;
+				scene.add(physicsHelper);
+
+				var bones = physicsHelper.physics.mesh.skeleton.bones;
+
+				head = bones[8];
+				left_eye = bones[86];
+				right_eye = bones[88];
+
+			}, onProgress, null);
+
+			window.addEventListener('resize', onWindowResize, false);
+		}
+
+		function onWindowResize() {
+
+			camera.aspect = window.innerWidth / window.innerHeight;
+			camera.updateProjectionMatrix();
+
+			effect.setSize(window.innerWidth, window.innerHeight);
+
+		}
+
+		function animate(result) {
+
+			stats.begin();
+			render(result);
+			stats.end();
+
+		}
+
+		function render(result) {
+
+			var euler = result.euler;
+			var eye_euler = result.eye;
+			var mouth = result.mouth;
+			var blink = result.blink;
+
+			if (head) {
+				head.rotation.x = euler[0] * angle_const;
+				head.rotation.y = euler[1] * angle_const;
+				head.rotation.z = euler[2] * angle_const;
+			}
+
+			if (left_eye) {
+				left_eye.rotation.y = eye_euler[0];
+				left_eye.rotation.x = eye_euler[1];
+			}
+			if (right_eye) {
+				right_eye.rotation.y = eye_euler[0];
+				right_eye.rotation.x = eye_euler[1];
+			}
+
+			var mouth_index, eye_index;
+
+			if (mouth > 0.6) mouth_index = 9;
+			else if (mouth > 0.4) mouth_index = 12;
+			else if (mouth > 0.2) mouth_index = 11;
+
+			if (blink) {
+				if (blink[0] < 0.1 && blink[1] < 0.1) eye_index = 1;
+				else if (blink[0] < 0.1) eye_index = 4;
+				else if (blink[1] < 0.1) eye_index = 5;
+			}
+
+			if (mouth_index) {
+				mesh.morphTargetInfluences[mouth_index] = 1;
+			}
+
+			if (eye_index) {
+				mesh.morphTargetInfluences[eye_index] = 1;
+			}
+
+			helper.update(clock.getDelta());
+			effect.render(scene, camera);
+
+			if (mouth_index) {
+				mesh.morphTargetInfluences[mouth_index] = 0;
+			}
+
+			if (eye_index) {
+				mesh.morphTargetInfluences[eye_index] = 0;
+			}
+		}
+
+	</script>
+
+</body>
+
+</html>

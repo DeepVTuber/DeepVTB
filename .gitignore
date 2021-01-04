@@ -1,0 +1,7 @@
+node_modules/
+.vscode/
+*.pyc
+*.so
+*.mp4
+
+__pycache__
