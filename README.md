@@ -93,6 +93,8 @@ More details about 3D gaze estimation can be found at the [Laser Eye](https://gi
 * [threejs.org](https://threejs.org/): Applying Three.js WebGL Loader to render MMD models on web pages.
 * [kizunaai.com](http://kizunaai.com/): モデルは無料でご利用いただけます.
 
+## [KizunaAI-Lang](/docs/KizunaAI-Lang/README.md)
+
 ## Citation
 
 ``` bibtex
