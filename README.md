@@ -93,7 +93,26 @@ More details about 3D gaze estimation can be found at the [Laser Eye](https://gi
 * [threejs.org](https://threejs.org/): Applying Three.js WebGL Loader to render MMD models on web pages.
 * [kizunaai.com](http://kizunaai.com/): モデルは無料でご利用いただけます.
 
-## [KizunaAI-Lang](/docs/KizunaAI-Lang/README.md)
+## KizunaAI-Lang
+
+# キズナアイ言語 ლ(´ڡ`ლ)
+
+[<img align="right" src="https://user-images.githubusercontent.com/39142850/73865548-c7048080-4886-11ea-818b-288bad649684.jpeg" alt="KizunaAI" width="390">](https://www.youtube.com/channel/UC4YaOt1yT-ZeyB0OmxHgolA)
+
+インテリジェントなスーパーA.I.『キズナアイ言語』<br>
+gem『r-fxxk』を使用したBrainfuck系言語です。
+
+- [A.I.Channel - YouTube](https://www.youtube.com/channel/UC4YaOt1yT-ZeyB0OmxHgolA)  
+- [Kizuna AI - Twitter](https://twitter.com/aichan_nel)<br>
+<br>
+
+## 使用ライブラリ & 本家
+
+- [masarakki / r-fxxk](https://github.com/masarakki/r-fxxk)<br>
+- [いつもニコニコあなたの隣に這いよる混沌ニャルラトホテプ言語ですっ](https://github.com/masarakki/nyaruko_lang)<br>
+<br>
+
+[Go to ->](/docs/KizunaAI-Lang/README.md)
 
 ## Citation
 
