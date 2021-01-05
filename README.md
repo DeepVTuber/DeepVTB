@@ -1,5 +1,8 @@
 # OpenVTuber-虚拟アイドル共享计划
 
+みんな本当にありがとう！
+これからもたくさんちゅめてね！
+
 <p align="center"><img src="https://s3.ax1x.com/2020/12/12/rVO3FO.gif" /></p>
 <p align="center"><img src="https://s3.ax1x.com/2020/12/12/rZeXD0.gif" /></p>
 
