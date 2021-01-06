@@ -19,6 +19,7 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 
 ```
 gem install r-fxxk
+cd docs/KizunaAI-Lang
 ./kizunaai helloworld.kizunaai
 ```
 
