@@ -1,7 +1,7 @@
 <div align="center">
     <img src="https://ychef.files.bbci.co.uk/1600x900/p068pw87.webp" alt="Book of Songs" width="1200">
-    <br>©RececcaHendin
 </div>
+<div align="right">©RececcaHendin</div>
 
 # 《诗经》/ 詩經 / <i>Book of Songs</i> <br> 中最美的名字
 
