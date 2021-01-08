@@ -1,9 +1,12 @@
 <div align="center">
-    <img src="https://ychef.files.bbci.co.uk/1600x900/p068pw87.webp" alt="Book of Songs" width="680">
+    <img src="https://ychef.files.bbci.co.uk/1600x900/p068pw87.webp" alt="Book of Songs" width="1200">
 </div>
+
 # 《诗经》/ 詩經 / Book of Songs <br>中最美的名字
 
 > 《诗经》约在公元前六世纪中叶编纂成书，据说是由儒家创始人孔子编定的。它是我国第一部诗歌总集，共收作品三百零五篇，分为“风”、“雅”、“颂”三部分，都因音乐得名。“风”是地方乐调，收录当时十五国的民歌；“雅”分大、小雅，多为贵族所作的乐章；“颂”是用于宗庙祭祀的乐歌。
+> [The Book of Songs: Poems that helped shape Chinese thought](https://www.bbc.com/culture/article/20180525-the-book-of-songs-poems-that-helped-shape-chinese-thought)
+
 
 《诗经》就像文化和艺术的宝藏，只有等你去挖掘，就会发现里面有新鲜的东西呈现给你，而《诗经》的言辞是一幅幅质朴淡雅的国画中最美的注脚，深深烙印在人的心里，因此借鉴诗经起名是很多家长都会使用的方法，接下来小编整理了1200个诗经中女孩名字，欢迎大家来挑选。
 
