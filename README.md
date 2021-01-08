@@ -11,7 +11,7 @@
 <p align="center"><img src="https://s3.ax1x.com/2020/12/12/rVO3FO.gif" /></p>
 <p align="center"><img src="https://s3.ax1x.com/2020/12/12/rZeXD0.gif" /></p>
 
-<strong><i>OpenVtuber: An application of real-time face and gaze analyzation via deep nerual networks.</i></strong>
+<strong>OpenVtuber: An application of real-time face and gaze analyzation via deep nerual networks.</strong>
 
 * Lightweight network architecture for low computing capability devices.
 * 3D gaze estimation based on the whole face semantic informations.
