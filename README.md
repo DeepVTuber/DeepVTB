@@ -1,12 +1,5 @@
 # OpenVTuber-虚拟アイドル共享计划
 
-みんな本当にありがとう！
-
-これからもたくさんちゅめてね！
-
-<p align="center"><img src="https://s3.ax1x.com/2020/12/12/rVO3FO.gif" /></p>
-<p align="center"><img src="https://s3.ax1x.com/2020/12/12/rZeXD0.gif" /></p>
-
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/1996scarlet/OpenVtuber.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/1996scarlet/OpenVtuber/context:python)
 [![License](https://badgen.net/github/license/1996scarlet/OpenVtuber)](LICENSE)
 [![ECCV](https://badgen.net/badge/ECCV/2018/red)](https://openaccess.thecvf.com/content_ECCV_2018/html/Seonwook_Park_Deep_Pictorial_Gaze_ECCV_2018_paper.html)
@@ -18,6 +11,12 @@ OpenVtuber: An application of real-time face and gaze analyzation via deep nerua
 * 3D gaze estimation based on the whole face semantic informations.
 * The total framework is an upgradation of the [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/html/Seonwook_Park_Deep_Pictorial_Gaze_ECCV_2018_paper.html) version.
 * Drive MMD models through a single RGB camera.
+
+<p align="center"><img src="https://s3.ax1x.com/2020/12/12/rVO3FO.gif" /></p>
+<p align="center"><img src="https://s3.ax1x.com/2020/12/12/rZeXD0.gif" /></p>
+
+> みんな本当にありがとう！
+> これからもたくさんちゅめてね！
 
 ## Setup
 
