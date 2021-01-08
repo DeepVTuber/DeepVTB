@@ -5,18 +5,18 @@
 [![ECCV](https://badgen.net/badge/ECCV/2018/red)](https://openaccess.thecvf.com/content_ECCV_2018/html/Seonwook_Park_Deep_Pictorial_Gaze_ECCV_2018_paper.html)
 <img src="https://img.shields.io/badge/It’s-magic-purple" alt="Code">
 
+> みんな本当にありがとう！
+> これからもたくさんちゅめてね！
+
+<p align="center"><img src="https://s3.ax1x.com/2020/12/12/rVO3FO.gif" /></p>
+<p align="center"><img src="https://s3.ax1x.com/2020/12/12/rZeXD0.gif" /></p>
+
 OpenVtuber: An application of real-time face and gaze analyzation via deep nerual networks.
 
 * Lightweight network architecture for low computing capability devices.
 * 3D gaze estimation based on the whole face semantic informations.
 * The total framework is an upgradation of the [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/html/Seonwook_Park_Deep_Pictorial_Gaze_ECCV_2018_paper.html) version.
 * Drive MMD models through a single RGB camera.
-
-<p align="center"><img src="https://s3.ax1x.com/2020/12/12/rVO3FO.gif" /></p>
-<p align="center"><img src="https://s3.ax1x.com/2020/12/12/rZeXD0.gif" /></p>
-
-> みんな本当にありがとう！
-> これからもたくさんちゅめてね！
 
 ## Setup
 
