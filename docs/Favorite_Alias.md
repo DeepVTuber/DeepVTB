@@ -1,10 +1,12 @@
 <div align="center">
     <img src="https://ychef.files.bbci.co.uk/1600x900/p068pw87.webp" alt="Book of Songs" width="1200">
+    <br>©RececcaHendin
 </div>
 
-# 《诗经》/ 詩經 / Book of Songs <br>中最美的名字
+# 《诗经》/ 詩經 / <i>Book of Songs</i> <br> 中最美的名字
 
 > 《诗经》约在公元前六世纪中叶编纂成书，据说是由儒家创始人孔子编定的。它是我国第一部诗歌总集，共收作品三百零五篇，分为“风”、“雅”、“颂”三部分，都因音乐得名。“风”是地方乐调，收录当时十五国的民歌；“雅”分大、小雅，多为贵族所作的乐章；“颂”是用于宗庙祭祀的乐歌。
+
 > [The Book of Songs: Poems that helped shape Chinese thought](https://www.bbc.com/culture/article/20180525-the-book-of-songs-poems-that-helped-shape-chinese-thought)
 
 
