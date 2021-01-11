@@ -123,13 +123,13 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 - QQ Group: 1043802768 (password：`Nanga`)
 - Email: yidazhang1#gmail.com 
 
--> `南嘉Nanga` is from [<b>《詩經》 / <i>Book of Songs</i></b>](/docs/Favorite_Alias.md)
+<br>--> `南嘉Nanga` is from [<b>《詩經》 / <i>Book of Songs</i></b>](/docs/Favorite_Alias.md)
 > <p align="center">南有嘉鱼，烝然罩罩。君子有酒，嘉宾式燕以乐。
 >                 <br><b>南有嘉鱼，烝然汕汕。</b>君子有酒，嘉宾式燕以衎。
 >                 <br>南有樛木，甘瓠累之。君子有酒，嘉宾式燕绥之。
 >                 <br>翩翩者鵻，烝然来思。君子有酒，嘉宾式燕又思。</p>
 > <p align="right">————《诗经·小雅·南有嘉鱼》</p>
-> <b>‘南有嘉鱼，烝然汕汕。’</b> that means
+> <br><b>‘南有嘉鱼，烝然汕汕。’</b> that means
 > <br><i>'In the south is the barbel, And, in multitudes, they are taken with wicker nets. The host has spirits, On which his admirable guests feast with him, delighted.'</i>
 > The swarms of fish in the water either sway fast, or have a light and unrestrained posture, and each is extremely happy, giving people rich associations.
 
