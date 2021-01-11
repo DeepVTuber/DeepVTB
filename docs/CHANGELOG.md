@@ -1,4 +1,4 @@
-#CHANGELOG
+# CHANGELOG
 
 - <b>v2.4.1</b> <button>Current</button>
   - Fix problems in the new version.
