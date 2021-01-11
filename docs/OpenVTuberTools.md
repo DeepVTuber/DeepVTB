@@ -1,6 +1,6 @@
 # OpenVTuberTools
 
-This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost.
+This document aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost.
 
 One webcam and one decent PC, then you can become a VTuber!
 
