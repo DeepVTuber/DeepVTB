@@ -82,7 +82,13 @@ Some exciting Project, but related to Vtubers.
   
   <https://github.com/2938137849/meamod>
 
-# Contribution
+## Become a VTuber
+
+This document, [<b>OpenVTuberTools</b>](OpenVTuberTools.md), aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost.
+
+One webcam and one decent PC, then you can become a VTuber!
+
+## Contribution
 
 You are welcome.
 
