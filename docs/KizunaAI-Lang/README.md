@@ -40,4 +40,4 @@ cd docs/KizunaAI-Lang
 | ちょちょいのちょいですよ | 入力から1バイト読み込む|
 <br>
 
-## [BACK TO HOME](https://github.com/DeepVTuber/DeepVTuber)
+### [BACK TO HOME](https://github.com/DeepVTuber/DeepVTuber/tree/main/docs)
