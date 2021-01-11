@@ -123,7 +123,7 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 - QQ Group: 1043802768 (password：`Nanga`)
 - Email: yidazhang1#gmail.com 
 
-[南嘉Nanga is from -> <b> 《詩經》 / <i>Book of Songs</i></b>](/docs/Favorite_Alias.md)
+`南嘉Nanga` is from -> [<b>《詩經》 / <i>Book of Songs</i></b>](/docs/Favorite_Alias.md)
 
 ## Citation
 
