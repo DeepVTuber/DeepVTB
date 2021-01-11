@@ -35,8 +35,8 @@ sio = socketio.Client()
 def on_connect():
     sio.emit('result_data', 0, namespace='/kizuna')
 
-
 sio.connect("http://127.0.0.1:6789")
+sio.wait()
 
 # ======================================================
 
