@@ -1,6 +1,6 @@
 # CHANGELOG
 
-- <b>v2.4.1</b> <button>Current</button>
+- <b>v2.4.1</b> <a href="https://github.com/DeepVTuber/DeepVTuber/release"><img src="https://img.shields.io/badge/-Current-green" alt="release"></a>
   - Fix problems in the new version.
 
 - <b>v2.4.0</b> 
