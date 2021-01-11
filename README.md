@@ -1,4 +1,4 @@
-# OpenVTuber-虚拟アイドル共享计划
+# OpenVTuber - 虚拟アイドル共享计划
 
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/1996scarlet/OpenVtuber.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/1996scarlet/OpenVtuber/context:python)
 [![License](https://badgen.net/github/license/1996scarlet/OpenVtuber)](LICENSE)
