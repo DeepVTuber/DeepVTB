@@ -132,7 +132,6 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 > <b>‘南有嘉鱼，烝然汕汕。’</b> that means
 > <br><br><i>'In the south is the barbel, And, in multitudes, they are taken with wicker nets. The host has spirits, On which his admirable guests feast with him, delighted.'</i>
 > The swarms of fish in the water either sway fast, or have a light and unrestrained posture, and each is extremely happy, giving people rich associations.
-<br>
 
 ## Citation
 
