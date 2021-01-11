@@ -38,6 +38,6 @@ cd docs/KizunaAI-Lang
 | 完璧ですね! | ポインタの指す値が0で無いなら 対応する 'お・ね・が・い' までジャンプ |
 | 危機回避〜! | ポインタの指す値を出力する |
 | ちょちょいのちょいですよ | 入力から1バイト読み込む|
-
 <br>
+
 ## [BACK TO HOME](https://github.com/DeepVTuber/DeepVTuber)
