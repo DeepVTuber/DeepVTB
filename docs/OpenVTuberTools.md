@@ -35,3 +35,7 @@ Here are the toolkits that allow you to do the above:
 
 1. [uDesktopDuplication](https://github.com/hecomi/uDesktopDuplication) that shows your screen in unity
 2. [Mixamo](https://www.mixamo.com/#/) where you can download many free 3D motions
+
+## Acknowledgment
+
+@kwea123 
