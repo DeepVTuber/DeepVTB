@@ -106,8 +106,8 @@ One webcam and one decent PC, then you can become a VTuber!
 
 ## Live2D-Widget
 <p align="center">
-      <img src="https://github.com/stevenjoezhang/live2d-widget/raw/master/assets/screenshot-2.png" alt="widget1" />
-      <img src="https://github.com/stevenjoezhang/live2d-widget/raw/master/assets/screenshot-3.png" alt="widget2" />
+      <img src="https://github.com/stevenjoezhang/live2d-widget/raw/master/assets/screenshot-2.png" alt="widget1" width="300"/>
+      <img src="https://github.com/stevenjoezhang/live2d-widget/raw/master/assets/screenshot-3.png" alt="widget2" width="300"/>
 </p>
 
 <b>[Sample demo]</b> You can also carry out secondary development within the allowed scope, here are some examples.
