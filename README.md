@@ -98,12 +98,22 @@ More details about 3D gaze estimation can be found at the [Laser Eye](https://gi
 * [threejs.org](https://threejs.org/): Applying Three.js WebGL Loader to render MMD models on web pages.
 * [kizunaai.com](http://kizunaai.com/): モデルは無料でご利用いただけます.
 
-
 ## Become a VTuber
 
 This document, [<b>OpenVTuberTools</b>](/docs/OpenVTuberTools.md), aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost.
 
 One webcam and one decent PC, then you can become a VTuber!
+
+## Live2D-Widget
+<p align="center">
+      <img src="https://github.com/stevenjoezhang/live2d-widget/raw/master/assets/screenshot-2.png" alt="widget1" />
+      <img src="https://github.com/stevenjoezhang/live2d-widget/raw/master/assets/screenshot-3.png" alt="widget2" />
+</p>
+
+<b>[Sample demo]</b> You can also carry out secondary development within the allowed scope, here are some examples.
+
+- [demo.html](https://mi.js.org/live2d-widget/demo/demo.html) , show basic effect
+- [login.html](https://mi.js.org/live2d-widget/demo/login.html) , NPM-like login interface
 
 ## キズナアイ言語 ლ(´ڡ`ლ)
 
@@ -142,7 +152,7 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 > The swarms of fish in the water either sway fast, or have a light and unrestrained posture, and each is extremely happy, giving people rich associations.
 
 ## Acknowledgement
-@[kwea123](https://github.com/kwea123) @[1996scarlet](https://github.com/1996scarlet) @[]() @[]()
+@[kwea123](https://github.com/kwea123) @[1996scarlet](https://github.com/1996scarlet) @[stevenjoezhang](https://github.com/stevenjoezhang/live2d-widget)
 
 ## Citation
 
