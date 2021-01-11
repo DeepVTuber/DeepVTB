@@ -124,7 +124,8 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 - Email: yidazhang1#gmail.com 
 
 > `南嘉Nanga` is from -> [<b>《詩經》 / <i>Book of Songs</i></b>](/docs/Favorite_Alias.md)
-> <br>“南有嘉鱼,烝然汕汕”。《诗经·小雅·南有嘉鱼》
+> <p align="center">“南有嘉鱼，烝然汕汕”。</p>
+> <p align="right">————《诗经·小雅·南有嘉鱼》</p>
 
 ## Citation
 
