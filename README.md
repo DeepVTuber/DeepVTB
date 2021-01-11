@@ -165,14 +165,16 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 ```
 
 ## To-Do
-[x] Improve face tracking in complex surrounds
-[] Face tracking for All multi-platform device with web-browse
-[] Add more face expression
-[] Add pose presets
-[] Add many utility functions
+- [x] Improve face tracking in complex surrounds
+- [ ] Face tracking for All multi-platform device with web-browse
+- [ ] Add more face expression
+- [ ] Add pose presets
+- [ ] Add many utility functions
+
+--> Go to [CHANGELOG](/docs/CHANGELOG.md)
 
 ## Contributing
-- Fork it!
+- [Fork](https://github.com/DeepVTuber/DeepVTuber/edit/main/README.md) it!
 - Create your feature branch: `git checkout -b my-new-feature`
 - Commit your changes: `git commit -am 'Add some feature'`
 - Push to the branch: `git push origin my-new-feature`
@@ -181,7 +183,6 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 ## Support this project
 Donating to help me continue working on this project.
 
-<a href="https://www.paypal.com/paypalme/Charmve"><img src="https://img.shields.io/badge/Donate-PayPal-blue" alt="Donate"></a> <a href="https://www.paypal.com/paypalme/charmve" target="_Blank"><img src="https://img.shields.io/badge/Sponsor-Charmve-red" alt="Github"><a target="_blank" href="https://github.com/Charmve">
-	     <img src="https://img.shields.io/github/stars/madewithml/basics.svg?style=social&label=Star">
-	</a>
-<a href="https://charmve.github.io/sponsor.png"><img src="https://img.shields.io/badge/Donate-WeChat-green" alt="Donate"></a>      
+<a href="https://www.paypal.com/paypalme/Charmve"><img src="https://img.shields.io/badge/Donate-PayPal-blue" alt="Donate with Paypal"></a> 
+<a href="https://ko-fi.com/charmve"><img src="https://img.shields.io/badge/style--5eba00.svg?label=Coffee&amp;logo=ko-fi&amp;style=social" alt="BuymeaCoffee"/></a>
+<a href="https://charmve.github.io/sponsor.png"><img src="https://img.shields.io/badge/Donate-WeChat-green" alt="Donate with WeChat"></a>      
