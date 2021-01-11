@@ -117,6 +117,12 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 
 [Go to -> <b>KizunaAI-Lang</b>](/docs/KizunaAI-Lang/README.md)
 
+## 🍮 Community
+- Github <a href="https://github.com/DeepVTuber/DeepVTuber/pull" target="_blank">pull request 💬</a> or <a href="https://github.com/DeepVTuber/DeepVTuber/issues" target="_blank">issues 💭</a>
+
+- QQ Group: 1043802768 (password：`Nanga`)
+- Email: yidazhang1#gmail.com 
+
 ## Citation
 
 ``` bibtex
