@@ -141,6 +141,9 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 > <br><br><i>'In the south is the barbel, And, in multitudes, they are taken with wicker nets. The host has spirits, On which his admirable guests feast with him, delighted.'</i>
 > The swarms of fish in the water either sway fast, or have a light and unrestrained posture, and each is extremely happy, giving people rich associations.
 
+## Acknowledgement
+@[kwea123](https://github.com/kwea123) @[1996scarlet](https://github.com/1996scarlet) @[]() @[]()
+
 ## Citation
 
 ``` bibtex
@@ -160,3 +163,25 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
       year = {2018}
 }
 ```
+
+## To-Do
+[x] Improve face tracking in complex surrounds
+[] Face tracking for All multi-platform device with web-browse
+[] Add more face expression
+[] Add pose presets
+[] Add many utility functions
+
+## Contributing
+- Fork it!
+- Create your feature branch: `git checkout -b my-new-feature`
+- Commit your changes: `git commit -am 'Add some feature'`
+- Push to the branch: `git push origin my-new-feature`
+- Submit a <a href="https://github.com/DeepVTuber/DeepVTuber/pulls" target="_blank">pull request</a>:D
+
+## Support this project
+Donating to help me continue working on this project.
+
+<a href="https://www.paypal.com/paypalme/Charmve"><img src="https://img.shields.io/badge/Donate-PayPal-blue" alt="Donate"></a> <a href="https://www.paypal.com/paypalme/charmve" target="_Blank"><img src="https://img.shields.io/badge/Sponsor-Charmve-red" alt="Github"><a target="_blank" href="https://github.com/Charmve">
+	     <img src="https://img.shields.io/github/stars/madewithml/basics.svg?style=social&label=Star">
+	</a>
+<a href="https://charmve.github.io/sponsor.png"><img src="https://img.shields.io/badge/Donate-WeChat-green" alt="Donate"></a>      
