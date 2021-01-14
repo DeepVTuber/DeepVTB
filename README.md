@@ -191,7 +191,7 @@ gem『r-fxxk』を使用したBrainfuck系言語です。
 - Submit a <a href="https://github.com/DeepVTuber/DeepVTuber/pulls" target="_blank">pull request</a> :D
 
 ## Support this project
-Donating to help me continue working on this project. <a href="https://ko-fi.com/charmve"><img src="https://img.shields.io/badge/style--5eba00.svg?label=Coffee&amp;logo=ko-fi&amp;style=social" alt="BuymeaCoffee"/></a>
+Donating to help me continue working on this project. <a href="https://ko-fi.com/charmve"><img src="https://img.shields.io/badge/style--5eba00.svg?label=BuymeaCoffee&amp;logo=ko-fi&amp;style=social" alt="BuymeaCoffee"/></a>
 
 <a href="https://www.paypal.com/paypalme/Charmve"><img src="https://img.shields.io/badge/💖%20Donate-PayPal-blue" alt="Donate with Paypal"></a> 
 <a href="https://charmve.github.io/sponsor.png"><img src="https://img.shields.io/badge/💖%20Donate-WeChat-green" alt="Donate with WeChat"></a>      
